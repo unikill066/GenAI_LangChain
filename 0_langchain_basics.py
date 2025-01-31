@@ -6,7 +6,6 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import HumanMessage, SystemMessage
 
 # CREATE A .env FILE AND ADD ALL THE NECESSARY KEYS TO THAT FILE
-
 load_dotenv()  # load environment variables from .env file
 
 # 1. invoking a OpenAI model directly
