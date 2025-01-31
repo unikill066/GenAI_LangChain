@@ -7,8 +7,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage, SystemMessage
 
-# Setup environment variables and messages
-load_dotenv()
+load_dotenv()  # load environment variables from .env file
 
 messages = [
     SystemMessage(content="Translate English to Spanish"),
