@@ -39,3 +39,9 @@ print(prompt.to_messages())
 llm = ChatOpenAI(model="gpt-3.5-turbo")
 output = llm.invoke(prompt)
 print(output.content)
+
+
+# OUTPUT:
+# ¡Hoy es jueves y el partido es mañana!
+# [SystemMessage(content='Translate the following from English into Spanish', additional_kwargs={}, response_metadata={}), HumanMessage(content='Today is Friday and the match is tomorrow!', additional_kwargs={}, response_metadata={})]
+# ¡Hoy es viernes y el partido es mañana!
