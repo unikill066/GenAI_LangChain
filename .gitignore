@@ -1,1 +1,8 @@
 .env
+extreme-clone-449518-h8-firebase-adminsdk-fbsvc-2d9feef05c.json
+resumes/
+combine.py
+fetch_images.py
+.DS_Store
+.langgraph_api
+langgraph.json
