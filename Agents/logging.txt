@@ -1,0 +1,6 @@
+your conversations log:
+You: my name is nik
+AI: Nice to meet you, Nik! How can I assist you today?
+You: what is my name
+AI: Your name is Nik.
+End of conversation
